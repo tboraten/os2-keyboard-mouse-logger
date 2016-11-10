@@ -13,6 +13,7 @@ OS2 Final Project
 PS. Extremely fun project to work on. Very interesting challenges. Have a great summer.
 
 
+See mgui.c for top level file.
 
 To compile, run 'make'.
 
