@@ -1,12 +1,17 @@
 # os2-keyboard-mouse-logger
 
-########################
-GUI PART readme
+\########################
+
+GUI PART readme (readme.txt)
 
 Travis Boraten
+
 May 5, 2013
+
 OS2 Final Project
+
 PS. Extremely fun project to work on. Very interesting challenges. Have a great summer.
+
 
 
 To compile, run 'make'.
@@ -36,11 +41,13 @@ Interesting programs that I witnessed. read() sys call will read past EOF if I t
 
 
 --DISCLAIMER----
+
 uproc2 and uproc3 will probably not work as mentioned below due to the changes made in vrecorder.c to adjust for GUI handeling.
 
 To see those in action, see my first submission for this project.They work very well, and as expected.
 
-#########################
+\#########################
+
 PART 1 Assignment README---------------------------
 
 Run 'make' to compile the module & userproc2 / userproc3 which creates the executables uproc2 and uproc3 respectivily.
@@ -50,9 +57,11 @@ To record data into the buffer, the number '1' key on the top left hand side of 
 To record and write to file, run uproc2. uproc2 a single integer argument. The argument is the number of events you wish to record. Note a single keyboard stroke is made up of 6 events, mouse is 4. 
 
 example call
+
 sudo ./uproc2 30
 
 To playback the recorded data stored in record.txt, run uproc3.
 
 example call
+
 sudo ./uproc3 30
